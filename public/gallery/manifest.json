@@ -1,0 +1,205 @@
+[
+    {
+        "file":  "photo-01.jpg",
+        "source":  "_MG_0264-01.jpeg",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-02.jpg",
+        "source":  "_MG_0302.JPG",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-03.jpg",
+        "source":  "_MG_0318.JPG",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-04.jpg",
+        "source":  "_MG_0335.JPG",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-05.jpg",
+        "source":  "_MG_13.jpg",
+        "width":  700,
+        "height":  1280,
+        "ratio":  0.547
+    },
+    {
+        "file":  "photo-06.jpg",
+        "source":  "_MG_4092.jpg",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-07.jpg",
+        "source":  "_MG_4311.jpg",
+        "width":  1280,
+        "height":  852,
+        "ratio":  1.502
+    },
+    {
+        "file":  "photo-08.jpg",
+        "source":  "_MG_4497.jpg",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-09.jpg",
+        "source":  "_MG_4966-01 (1).jpeg",
+        "width":  1280,
+        "height":  853,
+        "ratio":  1.501
+    },
+    {
+        "file":  "photo-10.jpg",
+        "source":  "_MG_5818.jpg",
+        "width":  1280,
+        "height":  1235,
+        "ratio":  1.036
+    },
+    {
+        "file":  "photo-11.jpg",
+        "source":  "_MG_9289.JPG",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-12.jpg",
+        "source":  "_MG_9368-01.jpeg",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-13.jpg",
+        "source":  "_MG_9522-01.jpeg",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-14.jpg",
+        "source":  "_MG_9533-01.jpeg",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-15.jpg",
+        "source":  "_MG_9544-01.jpeg",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-16.jpg",
+        "source":  "1635054500291.jpg",
+        "width":  853,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-17.jpg",
+        "source":  "1635059250335.jpg",
+        "width":  853,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-18.jpg",
+        "source":  "1635120600695.jpg",
+        "width":  1280,
+        "height":  853,
+        "ratio":  1.501
+    },
+    {
+        "file":  "photo-19.jpg",
+        "source":  "1652650266486.jpg",
+        "width":  1280,
+        "height":  852,
+        "ratio":  1.502
+    },
+    {
+        "file":  "photo-20.jpg",
+        "source":  "1652650488680.jpg",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-21.jpg",
+        "source":  "1685332326137.jpg",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-22.jpg",
+        "source":  "1685382182559.jpg",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-23.jpg",
+        "source":  "1685383530487.jpg",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-24.jpg",
+        "source":  "1691374803761.jpg",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-25.jpg",
+        "source":  "1697124864213.jpg",
+        "width":  852,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-26.jpg",
+        "source":  "b1548ed0-3a5c-427d-b6e6-4eb07a639f7d_1.png",
+        "width":  832,
+        "height":  832,
+        "ratio":  1
+    },
+    {
+        "file":  "photo-27.jpg",
+        "source":  "IMG_20260205_210151.jpg",
+        "width":  1280,
+        "height":  859,
+        "ratio":  1.49
+    },
+    {
+        "file":  "photo-28.jpg",
+        "source":  "IMG-20210622-WA0001-01.jpeg",
+        "width":  853,
+        "height":  1280,
+        "ratio":  0.666
+    },
+    {
+        "file":  "photo-29.jpg",
+        "source":  "IMG-20210623-WA0001.jpg",
+        "width":  853,
+        "height":  1280,
+        "ratio":  0.666
+    }
+]

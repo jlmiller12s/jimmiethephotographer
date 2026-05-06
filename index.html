@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A virtual photo gallery for Jimmie the Photographer in the Greater St. Louis and St. Peters Missouri area."
+    />
+    <title>Jimmie the Photographer | Virtual Gallery</title>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="gallery-canvas" aria-label="Virtual photo gallery"></canvas>
+    </div>
+
+    <header class="site-header" aria-label="Primary">
+      <a class="brand-lockup" href="#gallery" data-panel-close>
+        <span>Jimmie the Photographer</span>
+        <small>Making photos dope.</small>
+      </a>
+      <nav class="nav-links">
+        <button type="button" data-panel="about">About</button>
+        <button type="button" data-panel="gallery">Gallery</button>
+        <button type="button" data-panel="contact">Contact</button>
+      </nav>
+    </header>
+
+    <aside class="panel" id="about-panel" aria-hidden="true" aria-labelledby="about-title">
+      <button class="panel-close" type="button" data-panel-close aria-label="Close panel"></button>
+      <p class="eyebrow">Greater St. Louis + St. Peters</p>
+      <h2 id="about-title">Portraits with presence, joy, and a little theater.</h2>
+      <p>
+        Every session is built around personality: clean portraits, dramatic editorial frames,
+        couples, athletes, families, and date-night shoots that feel relaxed while still looking
+        cinematic.
+      </p>
+      <a class="panel-link" href="https://jimmiethephotographer.com/about/">Read the original about page</a>
+    </aside>
+
+    <aside class="panel" id="contact-panel" aria-hidden="true" aria-labelledby="contact-title">
+      <button class="panel-close" type="button" data-panel-close aria-label="Close panel"></button>
+      <p class="eyebrow">Book a session</p>
+      <h2 id="contact-title">Need some photos?</h2>
+      <p>
+        Schedule a portrait, couple, senior, sports, or family shoot in the Greater St. Louis
+        and St. Peters Missouri area.
+      </p>
+      <div class="contact-actions">
+        <a href="https://jimmiethephotographer.com/contact/">Contact form</a>
+        <a href="https://www.instagram.com/jimmie_the_photographer/" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="https://www.facebook.com/jimmiethephotographer" target="_blank" rel="noreferrer">Facebook</a>
+      </div>
+    </aside>
+
+    <aside class="index-panel" id="gallery-panel" aria-hidden="true" aria-labelledby="gallery-title">
+      <button class="panel-close" type="button" data-panel-close aria-label="Close panel"></button>
+      <p class="eyebrow">Collection index</p>
+      <h2 id="gallery-title">Choose a frame</h2>
+      <div class="thumb-grid" id="thumb-grid"></div>
+    </aside>
+
+    <div class="tutorial-overlay" id="tutorial-overlay" aria-hidden="true">
+      <section class="tutorial-card" aria-labelledby="tutorial-title">
+        <button class="panel-close tutorial-close" type="button" id="tutorial-close" aria-label="Close tutorial"></button>
+        <p class="eyebrow">Gallery controls</p>
+        <h2 id="tutorial-title">Walk closer when a photo catches you.</h2>
+        <ol>
+          <li>Scroll to move smoothly along the wall.</li>
+          <li>Click a photo, or tap the magnifier, to step closer.</li>
+          <li>Drag up or down to adjust how close you stand.</li>
+          <li>Tap the X to back away and continue walking.</li>
+        </ol>
+        <button class="tutorial-start" type="button" id="tutorial-start">Start walking</button>
+      </section>
+    </div>
+
+    <div class="frame-label" aria-live="polite">
+      <span class="frame-count" id="frame-count">01 frame</span>
+      <span class="frame-divider"></span>
+      <span class="frame-title" id="frame-title">Opening portrait</span>
+    </div>
+
+    <button class="nav-arrow nav-prev" id="prev-frame" type="button" aria-label="Previous photo"></button>
+    <button class="nav-arrow nav-next" id="next-frame" type="button" aria-label="Next photo"></button>
+    <button class="close-focus" id="close-focus" type="button" aria-label="Return to gallery overview"></button>
+
+    <canvas class="minimap" id="minimap" width="180" height="180" aria-label="Top down gallery map"></canvas>
+
+    <div class="action-dock" aria-label="Gallery controls">
+      <button class="dock-button is-active" type="button" id="overview-mode" aria-label="Gallery overview"></button>
+      <button class="dock-button" type="button" id="tour-mode" aria-label="Focused tour"></button>
+      <button class="dock-button" type="button" id="inspect-mode" aria-label="Move closer to current photo"></button>
+      <button class="dock-button" type="button" id="help-mode" aria-label="Show gallery tutorial"></button>
+      <a class="book-button" href="https://jimmiethephotographer.com/contact/">Book</a>
+    </div>
+
+    <div class="intro-overlay" id="intro-overlay">
+      <div class="intro-inner">
+        <p class="intro-kicker">Virtual Gallery</p>
+        <h1>Jimmie the Photographer</h1>
+        <p>Making photos dope.</p>
+        <div class="load-ring" aria-hidden="true">
+          <canvas id="load-canvas" width="120" height="120"></canvas>
+          <span id="load-number">000</span>
+        </div>
+        <button class="enter-button" id="enter-button" type="button">
+          <span>Enter</span>
+        </button>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
